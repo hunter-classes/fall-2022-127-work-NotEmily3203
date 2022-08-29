@@ -4,6 +4,7 @@
 * GitHub username: NotEmily3203
 
 * Notes:
+AUG.29.2022
 - cd stands for change directory (ie cd intro)
 - use python command in shell and write down file name to run file (ie python intro.py)
 - version control allows you to commit changes to GitHub from Replit
