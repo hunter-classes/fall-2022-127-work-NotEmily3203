@@ -4,5 +4,9 @@
 * GitHub username: NotEmily3203
 
 * Notes:
+- cd stands for change directory (ie cd intro)
+- use python command in shell and write down file name to run file (ie python intro.py)
+- version control allows you to commit changes to GitHub from Replit
+- python, like many other languages, run program lines sequentially
 
 * Create folders and files as specified per assignment
