@@ -1,8 +1,10 @@
-now = input(print("what time is it now in hours (1-24): "))
+now = int(input("What time is it now in hours (1-24): "))
+hrs = int(input("In how many hours should the alarm go off: "))
+alarm = now+hrs
 x=0
-while x=0:
-  if now >= 1 and now <=24:
+while x==0:
+  if alarm >= 1 and alarm <=24:
+    print(f"your alarm will ring at {alarm}")
     x=1
-    hrs = input(print("In how many hours should the alarm go off: "))
   else:
-    now = input(print("input invalid, pick an hour from 1-24: "))
+    alarm = alarm-24
