@@ -9,5 +9,7 @@ AUG.29.2022
 - use python command in shell and write down file name to run file (ie python intro.py)
 - version control allows you to commit changes to GitHub from Replit
 - python, like many other languages, run program lines sequentially
+SEP.1.2022
+- 
 
 * Create folders and files as specified per assignment
