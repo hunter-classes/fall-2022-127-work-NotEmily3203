@@ -1,8 +1,16 @@
 * Fall 2022 - 127 - Work
-* Name: 
+* Name: Emily  Lin
 
-* GitHub username: 
+* GitHub username: NotEmily3203
 
 * Notes:
+AUG.29.2022
+- cd stands for change directory (ie cd intro)
+- use python command in shell and write down file name to run file (ie python intro.py)
+- version control allows you to commit changes to GitHub from Replit
+- python, like many other languages, run program lines sequentially
+SEP.1.2022
+- turtle module has methods that let's you draw
+- for loop is a way to iterate lines in python
 
 * Create folders and files as specified per assignment
