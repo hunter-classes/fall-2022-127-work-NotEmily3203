@@ -10,6 +10,7 @@ AUG.29.2022
 - version control allows you to commit changes to GitHub from Replit
 - python, like many other languages, run program lines sequentially
 SEP.1.2022
-- 
+- turtle module has methods that let's you draw
+- for loop is a way to iterate lines in python
 
 * Create folders and files as specified per assignment
