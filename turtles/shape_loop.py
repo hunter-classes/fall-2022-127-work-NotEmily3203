@@ -1,5 +1,8 @@
 import turtle
 
+def sample():
+  print("This is a funtion and can be used multiple times")
+
 wn = turtle.Screen()
 
 crush = turtle.Turtle()
@@ -15,6 +18,8 @@ squirt.color("light blue")
 for i in range(3):
   squirt.forward(30)
   squirt.left(120)
+
+sample()
 
 wn.exitonclick()
 wn.mainloop()
