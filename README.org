@@ -12,5 +12,7 @@ AUG.29.2022
 SEP.1.2022
 - turtle module has methods that let's you draw
 - for loop is a way to iterate lines in python
+SEP.12.2022
+- refactoring variables can illeviate copy and pasting code to make it more versatile
 
 * Create folders and files as specified per assignment
