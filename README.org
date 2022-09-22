@@ -16,5 +16,8 @@ SEP.12.2022
 - refactoring variables can illeviate copy and pasting code to make it more versatile
 SEP.19.2022
 - github -> settings -> SSH keys -> make key, terminal -> ssh-keygen -> make note of file directory
+SEP.22.2022
+- always slowly test code components one at a time
+- hash is an unique bit 16 hexadecimal number so you can identify changes
 
 * Create folders and files as specified per assignment

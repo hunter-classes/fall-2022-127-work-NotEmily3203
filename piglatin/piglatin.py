@@ -11,5 +11,5 @@ def piglatin(word):
     if word[0].upper() == i:
       return word + "yay"
   if word[0].upper() != i:
-     return word[1:] + word[0] + "ay"
+      return word[1:].capitalize() + word[0].lower() + "ay"
 print(piglatin("breach"))
