@@ -14,5 +14,7 @@ SEP.1.2022
 - for loop is a way to iterate lines in python
 SEP.12.2022
 - refactoring variables can illeviate copy and pasting code to make it more versatile
+SEP.19.2022
+- github -> settings -> SSH keys -> make key, terminal -> ssh-keygen -> make note of file directory
 
 * Create folders and files as specified per assignment

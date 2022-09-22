@@ -5,6 +5,9 @@ def is_even(n):
   else:
     return False
 print(is_even(42))
+
+def is_even_short(n):
+  return n % 2 == 0
 #8
 def is_odd(n):
   if n % 2 == 0:
