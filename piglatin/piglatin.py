@@ -3,13 +3,21 @@ def bondify(name):
   f = name[0:space_location]
   l = name[space_location+1:]
   return l + ", " + f + " " + l
-print(bondify("Emily Lin"))
 
 def piglatin(word):
-  list=["A","E","I","O","U"]
-  for i in list:
+  punctuation = ""
+  if word[-1] == ".":
+    word = word.replace(word[-1],"")
+    punctuation = "."
+  vowels=["A","E","I","O","U"]
+  for i in vowels:
     if word[0].upper() == i:
-      return word + "yay"
-  if word[0].upper() != i:
-      return word[1:].capitalize() + word[0].lower() + "ay"
-print(piglatin("breach"))
+      return word + "yay" + punctuation
+    if word[0].upper() != i:
+      if word[0] == word[0].upper():
+        capital = word[1:].capitalize()
+      else:
+        capital = word[1:]
+  return capital + word[0].lower() + "ay" + punctuation
+      
+print(piglatin("understood"))
