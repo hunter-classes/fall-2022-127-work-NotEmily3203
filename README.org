@@ -22,5 +22,10 @@ SEP.22.2022
 - HTML is a markup language because it does not solve any problems
 SEP.29.2022
 - you can import python modules and old modules. To import the random module, write import random at the top of the program. To import old modules, write import filename instead (without the .py)
+OCT.3.2022
+- lists can be indexed and spliced just like strings
+- strings are immutable, once created you cannot change it. You can reassign variables. On the other hand, lists are mutable.
+- when creating solutions, try to not permanently change the database, or document it if you do
+- 
 
 * Create folders and files as specified per assignment
