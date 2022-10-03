@@ -6,9 +6,9 @@ def bondify(name):
 
 def piglatin(word):
   punctuation = ""
-  if word[-1] == ".":
+  if word[-1] == "." or word[-1] == "!" or word[-1] == "?":
+    punctuation = word[-1]
     word = word.replace(word[-1],"")
-    punctuation = "."
   vowels=["A","E","I","O","U"]
   for i in vowels:
     if word[0].upper() == i:
@@ -20,4 +20,4 @@ def piglatin(word):
         capital = word[1:]
   return capital + word[0].lower() + "ay" + punctuation
       
-print(piglatin("understood"))
+print(piglatin("understood?"))

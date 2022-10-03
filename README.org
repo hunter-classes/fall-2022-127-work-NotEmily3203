@@ -20,5 +20,7 @@ SEP.22.2022
 - always slowly test code components one at a time
 - hash is an unique bit 16 hexadecimal number so you can identify changes
 - HTML is a markup language because it does not solve any problems
+SEP.29.2022
+- you can import python modules and old modules. To import the random module, write import random at the top of the program. To import old modules, write import filename instead (without the .py)
 
 * Create folders and files as specified per assignment
