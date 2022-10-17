@@ -26,6 +26,7 @@ OCT.3.2022
 - lists can be indexed and spliced just like strings
 - strings are immutable, once created you cannot change it. You can reassign variables. On the other hand, lists are mutable.
 - when creating solutions, try to not permanently change the database, or document it if you do
-- 
+OCT.17.2022
+- mapping means going through each element in the list and transforming it. This is so prevalent in python that there is a generic method for it (nested functions). Basically, set a function as a parameter for a more general function.
 
 * Create folders and files as specified per assignment
