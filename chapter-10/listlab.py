@@ -30,7 +30,7 @@ print(capitalized(word))
 
 def five_upper(word):
   length = len(word)
-  if length > 4:
+  if length > 5:
     word = word.upper()
   return word
 
