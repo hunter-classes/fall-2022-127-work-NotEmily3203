@@ -28,5 +28,8 @@ OCT.3.2022
 - when creating solutions, try to not permanently change the database, or document it if you do
 OCT.17.2022
 - mapping means going through each element in the list and transforming it. This is so prevalent in python that there is a generic method for it (nested functions). Basically, set a function as a parameter for a more general function.
+OCT.20.2022
+- list comprehension: python loops are so common that there's a shorthand for it. Basically if you want to turn something into a list, you can just put brackets around it.
+- ex: [x*x for x in range(10)] x is the list name and the for loop will be in the list (it can be put into another function like random.randrange()). This whole thing can also be assigned to another variable.
 
 * Create folders and files as specified per assignment
