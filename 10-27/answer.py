@@ -5,5 +5,5 @@ def mode(lst):
       mode = i
   return mode
 
-list = [1,2,3,3,4,5,6,6,6,6,7,7,8]
+list = [1,2,3,3,4,5,6,6,6,6,7,7,9,8]
 print(mode(list))
