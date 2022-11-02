@@ -6,7 +6,8 @@ EXTRAS:
 
 import random
 
-villain = ["radioactive cockroch","mutant rat","poisonous lanternfly","poopy pigeon","super-crackhead","Hawky 🦅","Florida man"]
+villain = [" the radioactive cockroch","the mutant rat","the poisonous lanternfly","the poopy pigeon","the super-crackhead","the Hawky 🦅","the Florida man"]
+hero = [""]
 verb = ["dance with","punch","kick","jump on","kiss","flirt with","grab","slap","headbutt"]
 noun = ["pistol","katana","stick","book","cigarette butt"]
 feelings = ["confused","happy","annoyed","angry","flustered","turned on","digusted","flabbergasted","bamboozled","in Ohio"]
@@ -16,7 +17,7 @@ randnoun = random.choice(noun)
 
 f = open("data.dat")
 for x in f:
-  x = x.replace('>',randvillain)
+  x = x.replace('<villain>',randvillain)
   x = x.replace('-',randnoun)
   x = x.replace('#',str(random.randrange(0,30,5)))
   x = x.replace('_',random.choice(verb))
