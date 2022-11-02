@@ -1,8 +1,10 @@
 import random
 def findLargest(l):
   s = l[0]
-  x = [x for x in l if x > s]
-  return x
+  for i in l:
+    if i > s:
+      s = i
+  return s
 lst = [100,10,1,10000,9,1]
 print(findLargest(lst))
 
@@ -48,7 +50,6 @@ def mode(dataset):
 slot = []
 for i in range(1000):
   slot.append(random.randrange(0,100))
-print(slot)
 def fastMode(dataset):
     # assume all values in dataset
     # are between 0 and 99 inclusive
@@ -63,7 +64,7 @@ def fastMode(dataset):
     # (add 1) to the appropriate
     # slot in the tallies list
   for i in dataset:
-    tallies = tallies.index(dataset) + 1
+    tallies[i] += 1
     # 3. the index with the highest
     # value in tallies is the mode
   return findLargest(tallies)
