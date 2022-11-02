@@ -32,8 +32,4 @@ OCT.20.2022
 - list comprehension: python loops are so common that there's a shorthand for it. Basically if you want to turn something into a list, you can just put brackets around it.
 - ex: [x*x for x in range(10)] x is the list name and the for loop will be in the list (it can be put into another function like random.randrange()). This whole thing can also be assigned to another variable.
 
-OCT.31.2022
-- a program will take a constant amount of time if it is not dependent on a dataset, while a data set will increase function time. More lines = more time
-- nested loops take longer to run, they are a n^# routine, where the inner n is raised to the power of the outer n. Twice nested loops - n^2, thrice nested loops, n^3.
-
 * Create folders and files as specified per assignment
