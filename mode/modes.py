@@ -67,6 +67,7 @@ def fastMode(dataset):
     tallies[i] += 1
     # 3. the index with the highest
     # value in tallies is the mode
-  return findLargest(tallies)
+  index = tallies.index(findLargest(tallies))
+  return index
 
 print(fastMode(slot))
