@@ -31,5 +31,10 @@ OCT.17.2022
 OCT.20.2022
 - list comprehension: python loops are so common that there's a shorthand for it. Basically if you want to turn something into a list, you can just put brackets around it.
 - ex: [x*x for x in range(10)] x is the list name and the for loop will be in the list (it can be put into another function like random.randrange()). This whole thing can also be assigned to another variable.
+NOV.7.2022
+- the keys and values can be accessed and be put into a variable, becoming a psuedolist. It can be a list when you need it to be but you can't index it using brackets.
+- tuples are immutable and are surrounded by parenthesis
+- a,b,c = list can be a way to grab items in order, a and b and c are treated like an individual variable
+- there's a thing called pretty printing so a dictionary looks better
 
 * Create folders and files as specified per assignment

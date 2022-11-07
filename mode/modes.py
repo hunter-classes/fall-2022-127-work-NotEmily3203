@@ -15,10 +15,8 @@ def freq(l,v):
 print(freq(lst,1))
 
 def buildRandomList(size,maxvalue):
-    result = []
-    for i in range(size):
-      result.append(random.randrange(5))
-    return result
+    result = [random.randrange(maxvalue) for x in range(size)]
+    return result 
 
 
 def mode(dataset):
@@ -71,3 +69,17 @@ def fastMode(dataset):
   return index
 
 print(fastMode(slot))
+
+def testMode(size,maxValue):
+    print("Dataset Size: ",size)
+    dataset = buildRandomList(size,maxValue)
+    # print(dataset)
+    m = mode(dataset)
+    print("Mode: ",m)
+
+def testFindLargest(size,maxValue):
+    print("Dataset Size: ",size)
+    dataset = buildRandomList(size,maxValue)
+    # print(dataset)
+    m = findLargest(dataset)
+    print("Largest: ",m)
