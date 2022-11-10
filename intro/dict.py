@@ -21,5 +21,3 @@ def count_words(s):
     else:
       counts[word] = 1
   return counts
-
-print(count_letters(s))
