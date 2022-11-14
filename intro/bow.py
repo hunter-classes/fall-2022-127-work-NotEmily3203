@@ -12,8 +12,14 @@ def build_bow(data):
   for word in data.split():
     counts.setdefault(word,0)
     counts[word] = counts[word]+1
-        
   return counts
+
+def remove_words(bag,word_list):
+  newbag = {}
+  for word in bag.keys():
+    if word not in word_list:
+      newbag[word] = bag[word]
+  return newbag
 
 def get_words_min_max(bag,mincount,maxcount):
   results = []
@@ -33,3 +39,6 @@ file = open("book.txt")
 raw_data = file.read()
 data = clean(raw_data)
 bag = build_bow(data)
+
+stop_words = open("stopwords.txt").read().split()
+bag_s = remove_words(bag,stop_words)

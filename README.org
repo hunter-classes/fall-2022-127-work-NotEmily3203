@@ -36,5 +36,7 @@ NOV.7.2022
 - tuples are immutable and are surrounded by parenthesis
 - a,b,c = list can be a way to grab items in order, a and b and c are treated like an individual variable
 - there's a thing called pretty printing so a dictionary looks better
+NOV.14.2022
+- stop words are words that aren't important
 
 * Create folders and files as specified per assignment
