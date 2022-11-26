@@ -1,7 +1,7 @@
 """
 EXTRAS:
 -Store your translations in a file named pirate.dat the file should have lines in the form “word:translation.”
-- Handle upper and lower case and/or punctuation
+- Handle upper and lower case and punctuation
 """
 #puts translation into dict
 pirate = {}
@@ -19,18 +19,21 @@ story = s.read()
 words = story.split(" ")
 print(words)
 for i in words:
+  x = 0
   if i.isalpha() == False:
-    i = i[0:-1]
-    print(i)
-  if i in klist:
+    e = i[0:-1]
+    p = i[-1:]
+    x = 1
+  else:
+    e = i
+  if e in klist:
     index = words.index(i)
-    if i == i.capitalize():
-      words[index] = i.replace(i,pirate[i].capitalize())
+    if i == i.capitalize(): #checks if word is capitalized
+      words[index] = i.replace(i,pirate[e].capitalize())
     else:
-      words[index] = i.replace(i,pirate[i])
+      words[index] = i.replace(i,pirate[e])
+    if x == 1:
+      words[index] += p
 translate = " ".join(words)
 print("before: ",story)
 print("after: ",translate)
-#rando="ee1"
-#if rando.isalpha()==False:
-#  print("no")
