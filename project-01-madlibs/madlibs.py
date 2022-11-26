@@ -17,7 +17,6 @@ randvillain = random.choice(villain)
 randnoun = random.choice(noun)
 randheroes = random.choice(heroes)
 
-
 f = open("data.dat")
 for x in f:
   x = x.split()
