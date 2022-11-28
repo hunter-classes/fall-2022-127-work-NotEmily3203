@@ -38,5 +38,11 @@ NOV.7.2022
 - there's a thing called pretty printing so a dictionary looks better
 NOV.14.2022
 - stop words are words that aren't important
+NOV.28.2022
+- C++ lines has to be in a code unit, like a function. C++ doesn’t know how to classify data types, you have to let it know, correspond unit with the data type
+- #include <iostream> is like the import but not really. You need it to include an input and output because c++ innately does not have that
+- std is standard library
+- double slash is single line comment, slash star is multiline
+- a.out is the compiled program, use ./a.out to run
 
 * Create folders and files as specified per assignment
