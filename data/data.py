@@ -10,3 +10,13 @@ EXTRAS:
 #read the data
 c = open("cereal.csv")
 s = open("starbucks-menu-nutrition-drinks.csv")
+
+#clean cereal.csv
+lines = c.read()
+cereals = lines.split("\n")
+print(cereals)
+
+# add each name to a dict as a key
+# add each value as 
+
+  
