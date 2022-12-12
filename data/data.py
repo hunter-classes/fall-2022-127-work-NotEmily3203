@@ -16,7 +16,6 @@ s = open("starbucks-menu-nutrition-drinks.csv")
 
 #clean cereal.csv and get values
 cereal = csv.reader(open("cereal.csv"))
-
 citems = 0
 ccalories = 0
 cprotein = 0
@@ -67,6 +66,7 @@ def avg(items, nutrition):
   avg = nutrition/items
   return avg
 
+#comparison time
 starbucks = 0
 if avg(sitems, scalories) < avg(citems, ccalories):
   starbucks += 1
@@ -80,6 +80,7 @@ if avg(sitems, ssodium) < avg(citems, csodium):
   starbucks += 1
 if avg(sitems, sprotein) > avg(citems, cprotein):
   starbucks += 1
+#The number 3 is chosen because we are comparing 6 nutritions, if starbucks is better than cereal, then it should earn a point in over 3 categories.
 if starbucks < 3:
   print("cereal is healthier in general")
 elif starbucks == 3:
