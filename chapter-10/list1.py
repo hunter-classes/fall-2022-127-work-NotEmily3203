@@ -1,0 +1,11 @@
+mylist = [76, 92.3, "hello", True, 4, 76]
+mylist.append("apple")
+mylist.append(76)
+mylist.insert(3, "cat")
+mylist.insert(0, 99)
+mylist.index("hello")
+mylist.count(76)
+mylist.remove(76)
+index = mylist.index(True)
+mylist.pop(index)
+print(mylist)
